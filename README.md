@@ -7,7 +7,7 @@ various Dapla related frontend applications.
 - [Import and use](#import-and-use)
 - [Available stuff](#available-stuff)
     - [Components](#components)
-        - [\<ErrorMessage\>]()
+        - [\<ErrorMessage\>](#errormessage)
         - [\<InfoPopup\>](#infopopup)
     - [Functions](#functions)
         - [getNestedObject()](#getnestedobjectinitialobject-pathtonestedobject)
