@@ -1,5 +1,5 @@
 # dapla-js-utilities
-
+[![Build Status](https://dev.azure.com/statisticsnorway/Dapla/_apis/build/status/Frontends/statisticsnorway.dapla-js-utilities?branchName=master)](https://dev.azure.com/statisticsnorway/Dapla/_build/latest?definitionId=37&branchName=master)
 
 This library aims to bundle together commonly used JavaScript functions and configurations and React components used in 
 various Dapla related frontend applications.
