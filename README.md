@@ -31,7 +31,7 @@ Run `yarn build` to build the library. A minified production ready version will 
 `yarn test` runs all tests and `yarn coverage` calculates (rather unreliably) test coverage.
 
 ## Import and use
-
+_Coming soon!_
 
 ## Available stuff
 ### Components
