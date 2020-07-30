@@ -87,7 +87,7 @@ In this case the variable `text` now contains `Here I am!` and `problem` is `und
 crash runtime when defining the variable `problem`.
 
 #### `truncateString(string, length)`
-This function takes two arguments, the first beeing the string you want to truncate, the second beeing at which point in 
+This function takes two arguments, the first being the string you want to truncate, the second being at which point in 
 the string do you want to cut it off and end it with `...`. If the function is provided with a non-string, it simply 
 returns `...`.
 
