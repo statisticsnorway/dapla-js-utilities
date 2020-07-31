@@ -1,10 +1,10 @@
 # dapla-js-utilities
 [![Build Status](https://dev.azure.com/statisticsnorway/Dapla/_apis/build/status/Frontends/statisticsnorway.dapla-js-utilities?branchName=master)](https://dev.azure.com/statisticsnorway/Dapla/_build/latest?definitionId=37&branchName=master)
 
-This library aims to bundle together commonly used JavaScript functions and configurations and React components used in 
-various Dapla related frontend applications.
+This library i mainly built for developers at SSB and it aims to bundle together commonly used JavaScript functions and 
+configurations and React components used in various Dapla related frontend applications.
+- [Installing library](#installing-library)
 - [Build and test locally](#build-and-test-locally)
-- [Import and use](#import-and-use)
 - [Available stuff](#available-stuff)
     - [Components](#components)
         - [\<ErrorMessage\>](#errormessage)
@@ -23,15 +23,21 @@ various Dapla related frontend applications.
 
 ----
 
+## Installing library
+If you want to use the library in your project, simply install it from yarn.
+
+`yarn add @statisticsnorway/dapla-js-utilities`
+
+In your project import any component, function or configuration.
+
+`import { Component } from '@statisticsnorway/dapla-js-utilities'`
+
 ## Build and test locally
 The first time you clone the repository, remember to run `yarn install`.
 
 Run `yarn build` to build the library. A minified production ready version will be created in the `/lib` folder.
 
 `yarn test` runs all tests and `yarn coverage` calculates (rather unreliably) test coverage.
-
-## Import and use
-_Coming soon!_
 
 ## Available stuff
 ### Components

@@ -1,16 +1,26 @@
 {
-  "name": "dapla-js-utilities",
+  "name": "@statisticsnorway/dapla-js-utilities",
   "version": "0.1.0",
-  "main": "lib/bundle.min.js",
-  "private": true,
+  "description": "JavaScript component library for SSB Dapla",
+  "main": "lib/bundle.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/statisticsnorway/dapla-js-utilities"
   },
+  "author": "Statistics Norway",
+  "license": "Apache-2.0",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "homepage": "https://github.com/statisticsnorway/dapla-js-utilities",
   "scripts": {
     "start": "react-scripts start",
     "build": "rollup --config",
     "test": "jest test",
+    "deploy": "npm publish",
     "coverage": "jest test --coverage --watchAll=false"
   },
   "eslintConfig": {
@@ -66,5 +76,16 @@
         "statements": 75
       }
     }
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "contributors": [
+    {
+      "name": "Magnus M. Jenssen"
+    },
+    {
+      "name": "Fenglin Han"
+    }
+  ]
 }
