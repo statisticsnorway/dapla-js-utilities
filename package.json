@@ -5,7 +5,7 @@
   "main": "lib/bundle.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/statisticsnorway/dapla-js-utilities"
+    "url": "git+https://github.com/statisticsnorway/dapla-js-utilities.git"
   },
   "author": "Statistics Norway",
   "license": "Apache-2.0",
