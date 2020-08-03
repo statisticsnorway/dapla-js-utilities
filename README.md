@@ -2,7 +2,7 @@
 [![npm version](https://badge.fury.io/js/%40statisticsnorway%2Fdapla-js-utilities.svg)](https://badge.fury.io/js/%40statisticsnorway%2Fdapla-js-utilities)
 [![Build Status](https://dev.azure.com/statisticsnorway/Dapla/_apis/build/status/Frontends/statisticsnorway.dapla-js-utilities?branchName=master)](https://dev.azure.com/statisticsnorway/Dapla/_build/latest?definitionId=37&branchName=master)
 
-This library i mainly built for developers at SSB and it aims to bundle together commonly used JavaScript functions and 
+This library is mainly built for developers at SSB and it aims to bundle together commonly used JavaScript functions and 
 configurations and React components used in various Dapla related frontend applications.
 - [Installing library](#installing-library)
 - [Build and test locally](#build-and-test-locally)
