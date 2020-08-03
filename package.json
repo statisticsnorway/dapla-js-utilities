@@ -20,7 +20,6 @@
     "start": "react-scripts start",
     "build": "rollup --config",
     "test": "jest test",
-    "deploy": "npm publish",
     "coverage": "jest test --coverage --watchAll=false"
   },
   "eslintConfig": {
