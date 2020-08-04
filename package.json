@@ -1,11 +1,11 @@
 {
   "name": "@statisticsnorway/dapla-js-utilities",
-  "version": "0.1.0",
-  "description": "JavaScript component library for SSB Dapla",
+  "version": "0.1.1",
+  "description": "JavaScript component library for Statistics Norway Dataplatform applications",
   "main": "lib/bundle.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/statisticsnorway/dapla-js-utilities"
+    "url": "git+https://github.com/statisticsnorway/dapla-js-utilities.git"
   },
   "author": "Statistics Norway",
   "license": "Apache-2.0",
@@ -20,7 +20,6 @@
     "start": "react-scripts start",
     "build": "rollup --config",
     "test": "jest test",
-    "deploy": "npm publish",
     "coverage": "jest test --coverage --watchAll=false"
   },
   "eslintConfig": {
