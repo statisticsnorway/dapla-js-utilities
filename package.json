@@ -5,7 +5,7 @@
   "main": "lib/bundle.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/statisticsnorway/dapla-js-utilities.git"
+    "url": "https://github.com/statisticsnorway/dapla-js-utilities"
   },
   "author": "Statistics Norway",
   "license": "Apache-2.0",
@@ -15,7 +15,6 @@
       "url": "http://www.apache.org/licenses/LICENSE-2.0"
     }
   ],
-  "homepage": "https://github.com/statisticsnorway/dapla-js-utilities",
   "scripts": {
     "start": "react-scripts start",
     "build": "rollup --config",
