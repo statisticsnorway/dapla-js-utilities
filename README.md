@@ -2,8 +2,10 @@
 [![npm version](https://badge.fury.io/js/%40statisticsnorway%2Fdapla-js-utilities.svg)](https://badge.fury.io/js/%40statisticsnorway%2Fdapla-js-utilities)
 [![Build Status](https://dev.azure.com/statisticsnorway/Dapla/_apis/build/status/Frontends/statisticsnorway.dapla-js-utilities?branchName=master)](https://dev.azure.com/statisticsnorway/Dapla/_build/latest?definitionId=37&branchName=master)
 
-This library is mainly built for developers at SSB and it aims to bundle together commonly used JavaScript functions and 
-configurations and React components used in various Dapla related frontend applications.
+This library is mainly built for developers at Statistics Norway and it aims to bundle together commonly used 
+JavaScript functions and configurations and React components used in various Statistics Norway Dataplatform related 
+frontend applications.
+
 - [Installing library](#installing-library)
 - [Build and test locally](#build-and-test-locally)
 - [Publish library](#publish-library)
@@ -26,7 +28,7 @@ configurations and React components used in various Dapla related frontend appli
 ----
 
 ## Installing library
-If you want to use the library in your project, simply install it from yarn.
+If you want to use the library in your project, simply add it with yarn.
 
 `yarn add @statisticsnorway/dapla-js-utilities`
 
@@ -43,7 +45,7 @@ Run `yarn build` to build the library. A minified production ready version will 
 
 ## Publish library
 To publish to [npm](https://www.npmjs.com/) you need a user and a membership in the `statisticsnorway` organization on 
-there. The user must also have 2FA authentication enabled. Steps to follow:
+npm. The user must also have 2FA authentication enabled. Steps to follow:
 
 1. Login into your npm account in the terminal with `npm login`
 2. Make sure all tests works (test components in the example application aswell, if you made a new one)
