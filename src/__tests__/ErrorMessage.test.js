@@ -1,10 +1,7 @@
 import React from 'react'
 import { render } from '@testing-library/react'
-import { toBeInTheDocument } from '@testing-library/jest-dom/matchers'
 
 import { ErrorMessage } from '../components'
-
-expect.extend({ toBeInTheDocument })
 
 const errorHeader = 'Error header'
 const errorString = 'A problem occured'
