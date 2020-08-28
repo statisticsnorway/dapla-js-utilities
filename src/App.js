@@ -12,19 +12,19 @@ function App () {
           <Header size='large' content='Components' />
           <Grid.Row>
             <Segment>
-              <Header size='medium' content='<InfoPopup>' />
-              <InfoPopup
-                text='Information'
-                position='right center'
-                trigger={<p>Hover over me!</p>}
-              />
+              <Header size='medium' content='<InfoText>' />
+              <InfoText text='Information' />
             </Segment>
           </Grid.Row>
           <Divider hidden />
           <Grid.Row>
             <Segment>
-              <Header size='medium' content='<InfoText>' />
-              <InfoText text='Information' />
+              <Header size='medium' content='<InfoPopup>' />
+              <InfoPopup
+                text='Information'
+                position='right center'
+                trigger={<Segment basic compact>Hover over me!</Segment>}
+              />
             </Segment>
           </Grid.Row>
           <Divider hidden />
@@ -49,8 +49,6 @@ function App () {
             </Segment>
           </Grid.Row>
         </Grid.Column>
-        <Grid.Column />
-        <Grid.Column />
         <Grid.Column />
       </Grid>
     </Segment>

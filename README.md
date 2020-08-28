@@ -87,7 +87,8 @@ in the popup. Use like this:
 ```
 
 #### `<SimpleFooter>`
-A very simple footer-like component showing a link to the projects repository and the version of the application:
+A very simple footer-like component showing a link to the projects repository, the version of the application, a 
+convenient scroll to top button and Statistics Norway copyright:
 
 ```javascript
 <SimpleFooter
@@ -96,7 +97,7 @@ A very simple footer-like component showing a link to the projects repository an
 />
 ```
 
-You can decide what language the version text should be by providing a language property. By default this is in 
+You can decide what language the texts should be by providing a language property. By default this is in 
 Norwegian if none is provided. Currently Norwegian and English is supported.
 
 #### `ssb-logo-rgb`
