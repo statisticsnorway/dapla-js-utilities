@@ -2,6 +2,7 @@ import babel from '@rollup/plugin-babel'
 import { terser } from 'rollup-plugin-terser'
 import commonjs from '@rollup/plugin-commonjs'
 import resolve from '@rollup/plugin-node-resolve'
+import image from '@rollup/plugin-image'
 
 const globals = {
   react: 'React',
@@ -31,6 +32,7 @@ export default {
   plugins: [
     resolve(),
     babel({ babelHelpers: 'bundled' }),
-    commonjs()
+    commonjs(),
+    image()
   ]
 }

@@ -13,6 +13,8 @@ frontend applications.
     - [Components](#components)
         - [\<ErrorMessage\>](#errormessage)
         - [\<InfoPopup\>](#infopopup)
+        - [\<SimpleFooter\>](#simplefooter)
+        - [ssb-logo-rbg](#ssb-logo-rgb)
     - [Functions](#functions)
         - [getNestedObject()](#getnestedobjectinitialobject-pathtonestedobject)
         - [truncateString()](#truncatestringstring-length)
@@ -81,6 +83,34 @@ in the popup. Use like this:
   text='Information' 
   position='right center' 
   trigger={<p>Hover over me!</p>} 
+/>
+```
+
+#### `<SimpleFooter>`
+A very simple footer-like component showing a link to the projects repository, the version of the application, a 
+convenient scroll to top button and Statistics Norway copyright:
+
+```javascript
+<SimpleFooter
+  appVersion='1.0.0'
+  sourceUrl='https://github.com/statisticsnorway/dapla-js-utilities'
+/>
+```
+
+You can decide what language the texts should be by providing a language property. By default this is in 
+Norwegian if none is provided. Currently Norwegian and English is supported.
+
+#### `ssb-logo-rgb`
+Import and use a Statistics Norway logo i svg format:
+```javascript
+import { Image } from 'semantic-ui-react'
+import ssb_logo_rgb from '@statisticsnorway/dapla-js-utilities'
+
+...
+
+<Image 
+  size='medium' 
+  src={ssb_logo_rgb} 
 />
 ```
 

@@ -1,10 +1,7 @@
 import React from 'react'
 import { render } from '@testing-library/react'
-import { toBeInTheDocument } from '@testing-library/jest-dom/matchers'
 
 import App from '../App'
-
-expect.extend({ toBeInTheDocument })
 
 jest.mock('../components/ErrorMessage', () => () => null)
 
