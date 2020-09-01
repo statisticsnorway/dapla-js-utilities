@@ -41,7 +41,7 @@ In your project import any component, function or configuration.
 ## Build and test locally
 The first time you clone the repository, remember to run `yarn install`.
 
-Run `yarn build` to build the library. A minified production ready version will be created in the `/lib` folder.
+Run `yarn package` to build the library. A minified production ready version will be created in the `/lib` folder.
 
 `yarn test` runs all tests and `yarn coverage` calculates (rather unreliably) test coverage.
 
@@ -52,7 +52,7 @@ npm. The user must also have 2FA authentication enabled. Steps to follow:
 1. Login into your npm account in the terminal with `npm login`
 2. Make sure all tests works (test components in the example application aswell, if you made a new one)
 3. Bump version in `package.json`
-4. Run `yarn build`
+4. Run `yarn package`
 5. Dry run a release with `npm pack`
 6. Publish with `npm publish --access public --otp=<code>` (`<code>` is your 2FA code, without `<>`)
 
