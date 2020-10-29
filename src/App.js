@@ -10,6 +10,7 @@ function App () {
       <Grid columns='equal' relaxed='very'>
         <Grid.Column>
           <Header size='large' content='Components' />
+          <Divider hidden />
           <Grid.Row>
             <Segment>
               <Header size='medium' content='<InfoText>' />
@@ -37,7 +38,7 @@ function App () {
           <Divider hidden />
           <Grid.Row>
             <Segment>
-              <Header size='medium' content='Statistics Norway Logo (svg)' />
+              <Header size='medium' content='Statistics Norway Logo (svg format)' />
               <Image size='medium' src={ssb_logo_rgb} />
             </Segment>
           </Grid.Row>

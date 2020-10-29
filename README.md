@@ -58,9 +58,9 @@ npm. The user must also have 2FA authentication enabled. Steps to follow:
 
 ## Available stuff
 ### Components
-**Important!** Usage of components from this library requires your application to use React and Semantic UI since this
-library does not include them. Examples can be viewed by running the example application in this project. `yarn start`
-and navigate to `http://localhost:3000`.
+**Important!** Usage of components (not functions or configurations) from this library requires React and Semantic UI 
+as peer dependencies since this library does not include them. Examples can be viewed by running the example application 
+in this project. `yarn start` and navigate to `http://localhost:3000`.
 
 #### `<ErrorMessage>`
 This component takes an error response from any API and shows it in an error box. Use it like this:
@@ -93,12 +93,14 @@ convenient scroll to top button and Statistics Norway copyright:
 ```javascript
 <SimpleFooter
   appVersion='1.0.0'
+  showScrollToTop={true}
   sourceUrl='https://github.com/statisticsnorway/dapla-js-utilities'
 />
 ```
 
 You can decide what language the texts should be by providing a language property. By default this is in 
-Norwegian if none is provided. Currently Norwegian and English is supported.
+Norwegian if none is provided. Currently Norwegian and English is supported. You can show or hide the scroll to top icon
+with the boolean property `showScrollToTop`, it defaults to true.
 
 #### `ssb-logo-rgb`
 Import and use a Statistics Norway logo i svg format:
@@ -135,7 +137,7 @@ const problem = getNestedObject(initialObject, ['firstLevel', 'text'])
 ```
 
 In this case the variable `text` now contains `Here I am!` and `problem` is `undefined`. But your application will not
-crash runtime when defining the variable `problem`.
+crash runtime when accessing the variable `problem`.
 
 #### `truncateString(string, length)`
 This function takes two arguments, the first being the string you want to truncate, the second being at which point in 
