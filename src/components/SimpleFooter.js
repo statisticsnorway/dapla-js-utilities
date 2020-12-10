@@ -36,6 +36,7 @@ function SimpleFooter ({ appVersion, language = 'nb', sourceUrl, showScrollToTop
                   size='large'
                   name='arrow alternate circle up'
                   style={{ color: SSB_COLORS.BLUE }}
+                  data-testid='dapla-js-utilities-scroll-to-top-button'
                   onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
                 />
               }

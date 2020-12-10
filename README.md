@@ -3,7 +3,7 @@
 [![Build Status](https://dev.azure.com/statisticsnorway/Dapla/_apis/build/status/Frontends/statisticsnorway.dapla-js-utilities?branchName=master)](https://dev.azure.com/statisticsnorway/Dapla/_build/latest?definitionId=37&branchName=master)
 
 This library is mainly built for developers at Statistics Norway and it aims to bundle together commonly used 
-JavaScript functions and configurations and React components used in various Statistics Norway Dataplatform related 
+JavaScript functions/configurations and React components used in various Statistics Norway Dataplatform related 
 frontend applications.
 
 - [Installing library](#installing-library)
@@ -46,7 +46,7 @@ Run `yarn package` to build the library. A minified production ready version wil
 `yarn test` runs all tests and `yarn coverage` calculates (rather unreliably) test coverage.
 
 ## Publish library
-To publish to [npm](https://www.npmjs.com/) you need a user and a membership in the `statisticsnorway` organization on 
+To publish to [npm](https://www.npmjs.com) you need a user and a membership in the `statisticsnorway` organization on 
 npm. The user must also have 2FA authentication enabled. Steps to follow:
 
 1. Login into your npm account in the terminal with `npm login`
@@ -106,7 +106,7 @@ with the boolean property `showScrollToTop`, it defaults to true.
 Import and use a Statistics Norway logo i svg format:
 ```javascript
 import { Image } from 'semantic-ui-react'
-import ssb_logo_rgb from '@statisticsnorway/dapla-js-utilities'
+import { ssb_logo_rgb } from '@statisticsnorway/dapla-js-utilities'
 
 ...
 
@@ -115,6 +115,8 @@ import ssb_logo_rgb from '@statisticsnorway/dapla-js-utilities'
   src={ssb_logo_rgb} 
 />
 ```
+
+Alternatively you can import `ssb_logo_no_text_rgb`. A variant of the logo without the text.
 
 ### Functions
 #### `getNestedObject(initialObject, pathToNestedObject)`
@@ -196,6 +198,10 @@ body {
 
 .ui.secondary.menu .active.item {
   font-weight: bold;
+}
+
+.ui.fullscreen.modal {
+  left: 2.5% !important;
 }
 ```
 

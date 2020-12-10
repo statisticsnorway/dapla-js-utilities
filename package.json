@@ -1,6 +1,6 @@
 {
   "name": "@statisticsnorway/dapla-js-utilities",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "JavaScript common components library for Statistics Norway Dataplatform applications",
   "main": "lib/bundle.js",
   "repository": {
@@ -18,7 +18,7 @@
   "dependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-scripts": "4.0.0",
+    "react-scripts": "4.0.1",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^2.0.1"
   },
@@ -50,9 +50,9 @@
     "@babel/preset-env": "^7.10.4",
     "@babel/preset-react": "^7.10.4",
     "@rollup/plugin-babel": "^5.1.0",
-    "@rollup/plugin-commonjs": "^16.0.0",
+    "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-image": "^2.0.5",
-    "@rollup/plugin-node-resolve": "^10.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.0",
     "@testing-library/jest-dom": "^5.11.2",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.0.17",
@@ -66,6 +66,7 @@
       "!src/main.js",
       "!src/**/index.js",
       "!src/components/ssb-logo-rgb.svg",
+      "!src/components/ssb-logo-no-text-rgb.svg",
       "!src/configurations/**",
       "!src/enums/**",
       "!src/utilities/CustomMethods.js"

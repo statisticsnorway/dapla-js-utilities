@@ -2,6 +2,7 @@ import React from 'react'
 import { Divider, Grid, Header, Image, Segment } from 'semantic-ui-react'
 
 import ssb_logo_rgb from './components/ssb-logo-rgb.svg'
+import ssb_logo_no_text_rgb from './components/ssb-logo-no-text-rgb.svg'
 import { ErrorMessage, InfoPopup, InfoText, SimpleFooter } from './components'
 
 function App () {
@@ -39,7 +40,14 @@ function App () {
           <Grid.Row>
             <Segment>
               <Header size='medium' content='Statistics Norway Logo (svg format)' />
-              <Image size='medium' src={ssb_logo_rgb} />
+              <Grid columns='equal' divided verticalAlign='middle' style={{ paddingBottom: '1rem' }}>
+                <Grid.Column>
+                  <Image size='medium' centered src={ssb_logo_rgb} />
+                </Grid.Column>
+                <Grid.Column>
+                  <Image size='tiny' centered src={ssb_logo_no_text_rgb} />
+                </Grid.Column>
+              </Grid>
             </Segment>
           </Grid.Row>
           <Divider hidden />
