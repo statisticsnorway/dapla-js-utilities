@@ -18,14 +18,12 @@ frontend applications.
     - [Functions](#functions)
         - [getNestedObject()](#getnestedobjectinitialobject-pathtonestedobject)
         - [truncateString()](#truncatestringstring-length)
-        - [reactTableCustomFilterMethod()](#reacttablecustomfiltermethodfilter-row)
     - [Configurations](#configurations)
         - [CSS](#css)
         - [SSB_STYLE](#ssb_style)
         - [SSB_COLORS](#ssb_colors)
     - [Enums](#enums)
         - [LANGUAGE](#language)
-        - [REACT_TABLE_TEXT](#react_table_text)
 
 ----
 
@@ -148,16 +146,6 @@ returns `...`.
 
 **Example:** `truncateString('Hello World!', 5)` returns `'Hello...'`
 
-#### `reactTableCustomFilterMethod(filter, row)`
-This function is an enhancement on the default filter method provided in 
-[React Table](https://github.com/tannerlinsley/react-table). Use it like this:
-
-```javascript
-<ReactTable
-  defaultFilterMethod={reactTableCustomFilterMethod}
-/>
-```
-
 #### `getLocalizedGsimObjectText(languageCode, object)`
 This function searches through the commonly used `MultilingualText` type from the GSIM-model (when converted to JSON)
 for text matching the language you wish to retrieve. When providing the function with a language code and the 
@@ -217,21 +205,3 @@ This enum contains commonly used colors straight from
 ### Enums
 #### `LANGUAGE`
 Common setup for language choice with provided language and locale codes.
-
-#### `REACT_TABLE_TEXT`
-Translations for [React Table](https://github.com/tannerlinsley/react-table) used like this:
-
-```javascript
-<ReactTable
-  ofText={REACT_TABLE_TEXT.OF[language]}
-  nextText={REACT_TABLE_TEXT.NEXT[language]}
-  pageText={REACT_TABLE_TEXT.PAGE[language]}
-  rowsText={REACT_TABLE_TEXT.ROWS[language]}
-  loadingText={REACT_TABLE_TEXT.LOADING[language]}
-  previousText={REACT_TABLE_TEXT.PREVIOUS[language]}
-  noDataText={REACT_TABLE_TEXT.NOTHING_FOUND[language]}
-/>
-```
-
-`language` is the language code for the language you wish to display the text with. Currently `nb` (Norwegian) and
-`en` (English) is supported.

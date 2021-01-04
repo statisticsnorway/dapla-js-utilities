@@ -10,7 +10,7 @@ export const getLocalizedGsimObjectText = (languageCode, object) => {
 
   if (Array.isArray(object)) {
     if (object.length !== 0) {
-      const localized = object.find(object => object[GSIM.LOCALIZED.CODE] === languageCode)
+      const localized = object.find(innerObjects => innerObjects[GSIM.LOCALIZED.CODE] === languageCode)
 
       if (localized !== undefined) {
         localizedText = localized[GSIM.LOCALIZED.TEXT]

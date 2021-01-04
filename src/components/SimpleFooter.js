@@ -24,7 +24,7 @@ function SimpleFooter ({ appVersion, language = 'nb', sourceUrl, showScrollToTop
     <Container fluid>
       <Segment basic>
         <Divider />
-        <Grid columns='equal'>
+        <Grid columns='equal' style={{ paddingLeft: '1rem', paddingRight: '1rem' }}>
           <Grid.Column verticalAlign='middle'>
             {showScrollToTop &&
             <InfoPopup
