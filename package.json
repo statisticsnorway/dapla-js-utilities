@@ -1,6 +1,6 @@
 {
   "name": "@statisticsnorway/dapla-js-utilities",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "JavaScript common components library for Statistics Norway Dataplatform applications",
   "main": "lib/bundle.js",
   "repository": {
@@ -65,8 +65,8 @@
       "src/**",
       "!src/main.js",
       "!src/**/index.js",
-      "!src/components/ssb-logo-rgb.svg",
-      "!src/components/ssb-logo-no-text-rgb.svg",
+      "!src/components/ssb-logo-*.svg",
+      "!src/components/ssb-logo-no-text-*.svg",
       "!src/configurations/**",
       "!src/enums/**"
     ],

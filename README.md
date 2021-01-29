@@ -114,7 +114,8 @@ import { ssb_logo_rgb } from '@statisticsnorway/dapla-js-utilities'
 />
 ```
 
-Alternatively you can import `ssb_logo_no_text_rgb`. A variant of the logo without the text.
+Alternatively you can import `ssb_logo_no_text_rgb` (a variant of the logo without the text). You can also swap `rgb`
+with `white` for a white logo for darker backgrounds.
 
 ### Functions
 #### `getNestedObject(initialObject, pathToNestedObject)`
