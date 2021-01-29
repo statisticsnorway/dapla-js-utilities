@@ -1,7 +1,7 @@
 export const LANGUAGE = {
   ENGLISH: {
     en: 'English',
-    nb: 'Engelsk'
+    nb: 'English'
   },
   LANGUAGE: {
     en: 'Language',
@@ -24,7 +24,7 @@ export const LANGUAGE = {
     nb: 'nb-NO'
   },
   NORWEGIAN: {
-    en: 'Norwegian',
+    en: 'Norsk',
     nb: 'Norsk'
   }
 }
