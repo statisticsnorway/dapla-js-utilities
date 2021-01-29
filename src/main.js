@@ -1,5 +1,7 @@
 export ssb_logo_rgb from './components/ssb-logo-rgb.svg'
+export ssb_logo_white from './components/ssb-logo-white.svg'
 export ssb_logo_no_text_rgb from './components/ssb-logo-no-text-rgb.svg'
+export ssb_logo_no_text_white from './components/ssb-logo-no-text-white.svg'
 export { ErrorMessage, InfoPopup, InfoText, SimpleFooter } from './components'
 export { SSB_COLORS, SSB_STYLE } from './configurations'
 export { LANGUAGE } from './enums'
