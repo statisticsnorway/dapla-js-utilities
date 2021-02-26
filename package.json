@@ -1,6 +1,6 @@
 {
   "name": "@statisticsnorway/dapla-js-utilities",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "JavaScript common components library for Statistics Norway Dataplatform applications",
   "main": "lib/bundle.js",
   "repository": {
@@ -18,7 +18,7 @@
   "dependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-scripts": "4.0.1",
+    "react-scripts": "4.0.3",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^2.0.1"
   },
