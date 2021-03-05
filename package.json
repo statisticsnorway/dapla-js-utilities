@@ -1,6 +1,6 @@
 {
   "name": "@statisticsnorway/dapla-js-utilities",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "JavaScript common components library for Statistics Norway Dataplatform applications",
   "main": "lib/bundle.js",
   "repository": {
